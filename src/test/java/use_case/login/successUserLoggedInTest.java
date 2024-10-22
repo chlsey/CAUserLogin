@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class successUserLoggedInTest {
 
     @Test
-    public void successTest() {
+    public void successUserLoggedInTest() {
         LoginInputData inputData = new LoginInputData("Paul", "password");
         LoginUserDataAccessInterface userRepository = new InMemoryUserDataAccessObject();
 
